@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Card } from 'react-bootstrap';
 
 export default function Movies({ data }) {
