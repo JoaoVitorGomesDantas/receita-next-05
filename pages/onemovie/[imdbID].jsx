@@ -52,7 +52,7 @@ export default function Movies({ data }) {
 export async function getServerSideProps(context) {
   
     const { imdbID } = context.query;
-    const res = await fetch(`http://www.omdbapi.com/?apikey=1ecf8ec3&i=${imdbID}`);
+    const res = await fetch(`http://www.omdbapi.com/?apikey=aacfdda6&i=${imdbID}`);
     const data = await res.json();
     
     return {
